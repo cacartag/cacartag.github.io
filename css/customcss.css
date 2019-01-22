@@ -47,6 +47,13 @@ p.slidedowntextalign {
   padding-left: 5%;
 }
 
+.table-wrapper-scroll-x {
+display: block;
+min-width: 300px;
+overflow-x: auto;
+-ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
 
 
 
