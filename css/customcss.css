@@ -1,4 +1,8 @@
 .rotateimg180 {
+    -ms-transform: rotate(180deg);
+-webkit-transform: rotate(180deg);
+transform: rotate(180deg);
+
     -webkit-transform:rotate(180deg);
     -moz-transform: rotate(180deg);
     -ms-transform: rotate(180deg);
@@ -7,6 +11,9 @@
 }
 
 .rotateimg90 {
+    -ms-transform: rotate(90deg);
+-webkit-transform: rotate(90deg);
+transform: rotate(90deg);
     -webkit-transform:rotate(90deg);
     -moz-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
@@ -15,6 +22,9 @@
 }
 
 .rotateimg270 {
+    -ms-transform: rotate(270deg);
+-webkit-transform: rotate(270deg);
+transform: rotate(270deg);
     -webkit-transform:rotate(270deg);
     -moz-transform: rotate(270deg);
     -ms-transform: rotate(270deg);
