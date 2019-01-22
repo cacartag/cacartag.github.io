@@ -9,9 +9,6 @@
 .rotateimg90 {
     -moz-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
-	/*-webkit-transform: rotate(270deg);
-    -webkit-transform-origin: rotate(270deg); 
-	transform-origin: rotate(270deg);*/
     -o-transform: rotate(90deg);
     transform: rotate(90deg);
 }
@@ -34,3 +31,23 @@ p.solid {
   padding-left: 5%;
   padding-right: 5%;
 }
+
+div.slidedownbackground {
+  border-top:solid;
+  border-left:solid;
+  border-right:solid;
+  
+  background-color: #343a40!important;
+  color:black; 
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+p.slidedowntextalign {
+  padding-left: 5%;
+}
+
+
+
+
+
