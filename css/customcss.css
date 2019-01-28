@@ -55,6 +55,15 @@ overflow-x: auto;
 }
 
 
+.table-wrapper-scroll-x-notable {
+display: block;
+min-width: 400px;
+overflow-x: auto;
+-ms-overflow-style: -ms-autohiding-scrollbar;
+}
 
+li::before {content: "•"; color: black;
+  display: inline-block; width: 1em;
+  margin-left: -1em}
 
 
